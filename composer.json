@@ -1,0 +1,12 @@
+{
+  "name": "voseyevg/328/routing-demo",
+  "authors": [
+    {
+      "name": "Vlad Oseyev",
+      "email": "voseyev@greenriver.edu"
+    }
+  ],
+  "require":{
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
