@@ -39,8 +39,10 @@ $f3->route('GET /language/@lang', function($f3, $params) {
             //Reroute to another page
         case 'french';
             $f3->reroute('/');
+            //404 error
+
         default:
-            echo 'Hello!';
+            $f3->error(404);
     }
 
 }
