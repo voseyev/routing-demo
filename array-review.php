@@ -24,7 +24,7 @@ for($x = 0; $x < 2; $x++) {
 
 
 }
-function printAnimals($animals, $animalsAdd){
+function printAnimals($animals){
     echo $animals[0] . " " . $animals[1] . " " . $animals[2] . " " . $animals[3];
     echo  nl2br (" \n ");
 }
