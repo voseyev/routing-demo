@@ -59,7 +59,6 @@ $flavors = array("grasshopper" => "The GrassHopper", "maple" => "Whiskey Maple B
         <html>
             <body>
                 <input type="checkbox" name="flavors" value=<? $key ?>> <? echo $value ?><br>
-            <br>
             </body>
         </html>
 <?php } ?>
