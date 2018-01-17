@@ -1,7 +1,5 @@
 <?php
 
-global $animals;
-
 $animals = array("alpaca", "boa", "panda");
 $animalsAdd = array("alpaca");
 
@@ -35,6 +33,17 @@ function animals($string) {
     echo  nl2br ("\n");
 }
 
+$flavors = array("grasshopper" => "The GrassHopper", "maple" => "Whiskey Maple Bacon", "carrot" => "Carrot Walnut",
+    "caramel" => "Salted Caramel Cupcake" , "velvet" => "Red Velvet", "lemon" => "Lemon Drop", "tiramisu" => "Tiramisu");
+
+echo  nl2br ("\n");
+echo  nl2br ("\n");
+
+foreach ($flavors as $key => $value) {
+    echo $key . " - ";
+    echo $value;
+    echo  nl2br ("\n");
+}
 
 echo  nl2br ("\n");
 
